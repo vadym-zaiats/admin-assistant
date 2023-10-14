@@ -1,0 +1,63 @@
+<nav class="nav_container">
+  <a href="#" class="header__link">
+    <img src="./img/logo.png" alt="logo" class="header__logo" />
+  </a>
+  <button
+    type="button"
+    class="btn btn-outline-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
+    Вхід
+  </button>
+</nav>
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Авторизация</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <form action="">
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control login-email"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control login-password"
+              id="exampleInputPassword1"
+            />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="loginbutton">
+            Вхід
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

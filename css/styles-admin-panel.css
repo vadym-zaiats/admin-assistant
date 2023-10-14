@@ -1,0 +1,119 @@
+.filters {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.form-select {
+  margin-top: 7px;
+  width: auto;
+}
+.modal-content {
+  box-shadow: 0 0 20px 5px #75d6a9;
+}
+.cards {
+  background-color: #f5f5f5;
+  box-shadow: 0 0 12px 2px #75d6a9;
+  margin: 30px auto;
+  box-sizing: border-box;
+  padding: 30px 10px;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 320px;
+  margin: 10px;
+  box-shadow: -10px -6px 5px 0px #8f8d26;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-remove {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #f5f5f5;
+  box-shadow: -10px -6px 5px 0px #75d6a9;
+  margin: 30px auto;
+  box-sizing: border-box;
+  padding: 30px 10px;
+  display: flex;
+}
+
+.nav_container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 10px auto 0;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filters {
+  background-color: #f5f5f5;
+  box-shadow: -10px -6px 5px 0px #75d6a9;
+  margin: 30px auto;
+  box-sizing: border-box;
+  padding: 30px 10px;
+}
+
+.filters_status,
+.filters_priority {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modall {
+  --bs-modal-zindex: 1055;
+  --bs-modal-width: 500px;
+  --bs-modal-padding: 1rem;
+  --bs-modal-margin: 0.5rem;
+  --bs-modal-color: ;
+  --bs-modal-bg: #fff;
+  --bs-modal-border-color: var(--bs-border-color-translucent);
+  --bs-modal-border-width: 1px;
+  --bs-modal-border-radius: 0.5rem;
+  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-modal-inner-border-radius: calc(0.5rem - 1px);
+  --bs-modal-header-padding-x: 1rem;
+  --bs-modal-header-padding-y: 1rem;
+  --bs-modal-header-padding: 1rem 1rem;
+  --bs-modal-header-border-color: var(--bs-border-color);
+  --bs-modal-header-border-width: 1px;
+  --bs-modal-title-line-height: 1.5;
+  --bs-modal-footer-gap: 0.5rem;
+  --bs-modal-footer-bg: ;
+  --bs-modal-footer-border-color: var(--bs-border-color);
+  --bs-modal-footer-border-width: 1px;
+  position: fixed;
+  top: 35%;
+  left: 0;
+  z-index: var(--bs-modal-zindex);
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.no-active {
+  box-shadow: -10px -6px 5px 0px rgb(78 39 204 / 90%);
+}
+.container-fluid {
+  display: "none";
+}

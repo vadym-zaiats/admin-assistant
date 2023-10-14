@@ -1,0 +1,52 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <a href="#" class="header__link">
+      <img src="./img/logo.png" alt="logo" class="header__logo" />
+    </a>
+    <button type="button" class="btn btn-outline-secondary visit-create">
+      Створити візит
+    </button>
+    <button type="button" class="btn btn-outline-danger" id="logout-button">
+      Вихід
+    </button>
+  </div>
+</nav>
+<section class="filters">
+  <form class="d-flex" role="search">
+    <input
+      class="form-control me-2 search-box"
+      type="search"
+      placeholder="Шукати"
+      aria-label=""
+    />
+    <button id="search" class="btn btn-outline-success" type="submit">
+      Пошук
+    </button>
+  </form>
+  <div class="filters_status">
+    Статус
+    <select
+      id="status"
+      class="form-select"
+      aria-label="Пример выбора по умолчанию"
+    >
+      <option value="4" selected>Усі</option>
+      <option value="1">Актуальний</option>
+      <option value="2">Завершено</option>
+    </select>
+  </div>
+  <div class="filters_priority">
+    Пріорітет
+    <select
+      id="priority"
+      class="form-select"
+      aria-label="Пример выбора по умолчанию"
+    >
+      <option value="4" selected>Усі</option>
+      <option value="1">Високий</option>
+      <option value="2">Нормальний</option>
+      <option value="3">Низький</option>
+    </select>
+  </div>
+</section>
+<section class="cards" id="cards-wrap"></section>

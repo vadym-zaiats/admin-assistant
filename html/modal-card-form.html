@@ -1,0 +1,76 @@
+<div class="modal fade show modal-window" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Сформувати картку візиту</h5>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <p class="h6">Лікар</p>
+            <select class="form-select doctor-form" aria-label="Default select example">
+              <option value="null" selected>Open this select menu</option>
+              <option>Кардіолог</option>
+              <option>Стоматолог</option>
+              <option>Терапевт</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <p class="h6">Статус</p>
+            <select class="form-select status-form" aria-label="Default select example">
+              <option value="null" selected>Open this select menu</option>
+              <option>Актуальний</option>
+              <option>Завершено</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <p class="h6">Пріоритет</p>
+            <select class="form-select priority-form" aria-label="Default select example">
+              <option value="null" selected>Open this select menu</option>
+              <option>Високий</option>
+              <option>Нормальний</option>
+              <option>Низький</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">ПІБ пацієнта</label>
+            <input class="form-control pacient-name-form" type="text" placeholder="Default input" aria-label="default input example">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ціль візиту</label>
+            <input class="form-control visit-goal-form" type="text" placeholder="Default input" aria-label="default input example">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Опис візиту</label>
+            <textarea class="form-control description-form" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 d-none pressure-form__div">
+            <label for="exampleFormControlTextarea1" class="form-label">Нормальний тиск</label>
+            <input class="form-control pressure-form" type="text" placeholder="Default input" aria-label="default input example">
+          </div>
+          <div class="mb-3 d-none mass-index-form__div">
+            <label for="exampleFormControlTextarea1" class="form-label">Індекс маси тіла</label>
+            <input class="form-control mass-index-form" type="text" placeholder="Default input" aria-label="default input example">
+          </div>
+          <div class="mb-3 d-none age-form__div">
+            <label for="exampleFormControlTextarea1" class="form-label">Вік</label>
+            <input class="form-control age-form" type="text" placeholder="Default input" aria-label="default input example">
+          </div>
+          <div class="mb-3 d-none diseases-form__div">
+            <label for="exampleFormControlTextarea1" class="form-label">перенесені хвороби</label>
+            <input class="form-control diseases-form" type="text" placeholder="Default input" aria-label="default input example">
+          </div>
+          <div class="mb-3 d-none last-visit-form__div">
+            <label for="exampleFormControlTextarea1" class="form-label">Дата останнього візиту</label>
+            <input class="form-control last-visit-form" type="date" placeholder="Default input" aria-label="default input example">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-close-modal" data-bs-dismiss="modal">Закрити</button>
+        <button type="submit" class="btn btn-primary btn-save-card">Сформувати картку</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-backdrop fade show modal-background"></div>
