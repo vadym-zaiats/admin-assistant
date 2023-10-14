@@ -6,23 +6,26 @@
     type="button"
     class="btn btn-outline-primary"
     data-bs-toggle="modal"
-    data-bs-target="#exampleModal"
+    data-bs-target="#loginButton"
   >
     Вхід
   </button>
 </nav>
+
 <!-- Modal -->
 <div
-  class="modal fade"
-  id="exampleModal"
+  style="width: 100%"
+  id="loginButton"
   tabindex="-1"
-  aria-labelledby="exampleModalLabel"
+  class="modal fade show"
+  role="dialog"
+  aria-labelledby="fullScreenModalLabel"
   aria-hidden="true"
 >
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-transparent">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Авторизация</h1>
+        <h1 class="modal-title fs-5" id="loginButtonLabel">Авторизация</h1>
         <button
           type="button"
           class="btn-close"

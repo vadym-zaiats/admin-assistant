@@ -174,3 +174,7 @@ body {
   right: 20px;
   cursor: pointer;
 }
+
+.modal-backdrop.fade.show {
+  display: none;
+}
